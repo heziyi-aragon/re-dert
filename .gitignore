@@ -5,7 +5,15 @@ __pycache__/
 
 # C extensions
 *.so
+# 忽略frontend下的.vscode文件夹
+frontend/.vscode/
 
+# 忽略frontend下的node_modules文件夹
+frontend/node_modules/
+
+#忽略static和runs文件夹中的所有内容
+runs/
+static/
 # Distribution / packaging
 .Python
 build/

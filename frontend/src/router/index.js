@@ -14,7 +14,7 @@ const routes=[
         meta:{requiresAuth:true}
     }
 ]
-
+//11
 const router=createRouter({
     history: createWebHistory(),
     routes
